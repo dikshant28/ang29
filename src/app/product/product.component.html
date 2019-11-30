@@ -1,0 +1,22 @@
+<h1>product works!</h1>
+
+
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let prod of product">
+            <td>{{prod.id}}</td>
+            <td>{{prod.title}}</td>
+            <td>{{prod.description}}</td>
+            <td>{{prod.price}}</td>
+        </tr>
+    </tbody>
+</table>
+
